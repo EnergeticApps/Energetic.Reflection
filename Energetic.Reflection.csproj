@@ -1,9 +1,30 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-	<LangVersion>9.0</LangVersion>
-	<Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<LangVersion>9.0</LangVersion>
+		<Nullable>enable</Nullable>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<Authors>Benjamin Charlton</Authors>
+		<Company>Energetic Apps</Company>
+		<Product>Energetic Libraries</Product>
+		<Version>0.0.1-alpha</Version>
+		<Description>Extension methods and other utilities for performing common operations involving reflection, such as working with assemblies, enums and types, particularly generics.</Description>
+		<Copyright>2021 Energetic Apps</Copyright>
+		<PackageProjectUrl>https://github.com/orgs/EnergeticApps/projects/1</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<RepositoryUrl>https://github.com/EnergeticApps/Energetic.Reflection/</RepositoryUrl>
+		<RepositoryType></RepositoryType>
+		<NeutralLanguage>en</NeutralLanguage>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\icon.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>
